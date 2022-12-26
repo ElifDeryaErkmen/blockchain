@@ -1,0 +1,418 @@
+https://www.youtube.com/watch?v=kWhC-BfbpmU&list=PLbw8WpmPzo0oVIUFzgkaHAaq7tP0s0_lb&index=6
+-> HTML and Javascript front end for ERC20 smart contract 
+
+var Accounts = require('web3-eth-accounts');
+var accounts = new Accounts('http://localhost:8545');
+//Generates an account with public key and private key
+web3.eth.accounts.create();
+> {
+    address: "0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01",
+    privateKey: "0x348ce564d427a3311b6536bbcff9390d69395b06ed6c486954e971d960fe8709",
+    signTransaction: function(tx){...},
+    sign: function(data){...},
+    encrypt: function(password){...}
+  }
+  
+
+
+react balance
+https://www.youtube.com/watch?v=n-KdOhe60Yg
+
+https://life-improver.com/ethereum/ethereum-accounts-created-by-using-web3-eth-accounts-create-dont-appear-when-web3-eth-getaccountsconsole-log/
+->.newAccount vs accounts.create
+
+https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html
+10^26
+https://web3js.readthedocs.io/en/v1.2.0/web3-eth-personal.html#personal-newaccount
+->The web3-eth-personal package allows you to interact with the Ethereum node’s accounts.
+
+ indura js onclick createaccount
+ 
+https://www.youtube.com/watch?v=Jda9gLTYU7Y
+->Change Data of Smart Contract solidity metamask ganache
+
+web3 js generate addresses infura
+ec20 frontend add account infura -> useless in youtube
+
+make your own default ganache accounts
+web3.eth.defaultAccount = web3.eth.personal.getAccounts()[1];
+
+create ganache account in code
+
+solidity add max_limit
+
+create ganache account frontend ////
+
+https://stackoverflow.com/questions/52126811/use-ganache-accounts-in-web3j
+
+You must specify a network_id in your 'xinfin' configuration in order to use this network.
+
+https://refactorfirst.com/create-cryptocurrency-wallet-with-web3 
+-> perfect except for that it doesn't work
+
+https://github.com/amrutprabhu/ethereum-blockchain-wallet/tree/main/cryptocurrency-wallet
+-> impressive. but it doesn't work
+
+https://github.com/robertipk/HTML-Javascript-front-end-for-ERC-20-token/blob/main/bobToken.js
+
+
+https://www.youtube.com/watch?v=UNiJx150r0U
+->Send Transaction Programmatically using Metamask API
+api doc larından kod yazıyor. vay aq***********************
+
+https://community.infura.io/t/web3-js-how-to-retrieve-the-balance-of-an-erc-20-token/5232
+-> infuradan wallet yapma. vay aq
+
+https://jaredstauffer.medium.com/how-to-get-the-balance-of-an-ethereum-wallet-address-in-code-192520362b7c
+->infuradan wallet yapma.
+
+http://docs.nethereum.com/en/latest/ethereum-and-clients/ganache-cli/#library
+-> ganache-cli ile müşteri ekleme //sıkıntılı//bir daha dene
+
+https://docs.xdc.community/learn/how-to-articles/how-to-create-and-deploy-an-xrc20-token-using-truffle
+-> totalsupply var.
+
+https://www.youtube.com/watch?v=jEeCqD47MEs&list=PLWUFLphNVZjtxT2HGc6QH85dFOYl_Y8gn
+->web3 Exercises 1: Connect Metamask to Frontend (Metamask+Express+HTML) //düzgün anlatan, uzun playlist
+
+etherium code multiple wallets frontend*****************
+
+https://composer.alchemy.com/
+
+https://www.youtube.com/watch?v=tyauBwPSbL8
+->dApp Tutorial: Web3 (web3.js) and React Detailed Walkthrough
+-> kinda long really helpful
+
+erc20 btn.onclick web3.eth.accounts.create(); frontend
+
+how to implement api doc methods etherium
+
+https://docs.alchemy.com/reference/ethereum-api-quickstart
+https://ethereum.org/en/developers/docs/transactions/
+https://geth.ethereum.org/docs/fundamentals/account-management
+https://www.sites.google.com/site/nttrungmtwiki/home/it/blockchain/ethereum/ethereum-development-walkthrough/part-2-truffle-ganache-geth-and-mist
+https://docs.xdc.community/learn/how-to-articles/how-to-create-and-deploy-an-xrc20-token-using-truffle
+https://www.youtube.com/watch?v=7hFIfYG7OmA
+-> How to add ERC20 token in Crypto Exchange Admin Panel 
+js web3 input wallet balance code
+https://www.coderrocketfuel.com/article/get-the-ether-balance-for-an-ethereum-address-with-web3-js
+https://web3js.readthedocs.io/en/v1.8.1/web3-utils.html#utils-bn
+
+https://www.youtube.com/watch?v=Itenhyh6QUc&list=PLWUFLphNVZjtxT2HGc6QH85dFOYl_Y8gn&index=5
+->web3 Exercises 4: Deposit & Withdraw Ether Smart Contract (Solidity+Metamask+Express+HTML+GANACHE). - 29.09
+
+https://www.youtube.com/watch?v=BvGrTLmxkQQ
+-> Create your First ERC20 TOKEN & SELL IT - React, Solidity & Truffle //biraz kalabalık ama açıklayıcı 3.58
+
+make your erc20 solidity js
+
+birim dönüşümü solidity
+
+https://goerlifaucet.com/
+
+doc.etherjs
+
+sol admin contract
+
+
+https://goerli-faucet.pk910.de/
+--------------------
+projeni çalıştır. balance kısmını toparla
+5 satırlık smart contractı deploy et. başlangıç money 10^6 falan ver.
+withdraw smart contactine başla. sadece admin girebilsin. para birim dönüşümü yapılsın.
+ethers.js?
+
+https://docs.ethers.org/v5/single-page/
+add multiple contracts to erc20 token
+--
+https://www.youtube.com/watch?v=VAtWMtAhcVI
+https://www.youtube.com/watch?v=J4ItHGcCIM0 Create Your Own Crypto on Ethereum Blockchain
+https://www.youtube.com/watch?v=w5qWfebmlHE&list=PLeGbjrys0OZJXH18ZdtadRuOL6BV5J1mK&index=27
+nodejs
+coin adresi 0xB69b9485956De39AdC663Cb8cbbfEF034cB23a29
+abi
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "initialSupply",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "value",
+				"type": "uint256"
+			}
+		],
+		"name": "Approval",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "from",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "value",
+				"type": "uint256"
+			}
+		],
+		"name": "Transfer",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			}
+		],
+		"name": "allowance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "approve",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			}
+		],
+		"name": "balanceOf",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "decimals",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "subtractedValue",
+				"type": "uint256"
+			}
+		],
+		"name": "decreaseAllowance",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "spender",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "addedValue",
+				"type": "uint256"
+			}
+		],
+		"name": "increaseAllowance",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "name",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "symbol",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "totalSupply",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "transfer",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "from",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "transferFrom",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
+--------------------
+
